@@ -1,0 +1,29 @@
+{
+  "name": "la-bodeguita-alexia",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "eslint": "eslint --ext .js,.ts,.astro src/*",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "astro": "^4.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-astro": "^0.31.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.3.3"
+  }
+}
